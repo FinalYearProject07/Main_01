@@ -1,0 +1,177 @@
+/* *************************Admin page**************************** */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #a6d1e2;
+}
+
+.navbar{
+    background-color: rgb(12, 22, 80);
+}
+.navbar-brand{
+    color: #fff;
+}
+.nav-link{
+    color: #ADD8E6;
+}
+
+
+/* *****************************Admin Profile************************* */
+#profile{
+    display:flex;
+    justify-content:end;
+    text-align: start;
+    margin-top: 40px;
+    /* border: 1px solid black; */
+}
+.DisplayBlock{
+    display: block;
+    margin-right: 75px;
+}
+.DisplayBlock span{
+    font-size: 14px;
+    padding-left: 71px;
+    display: block; line-height: 0;
+}
+.DisplayBlock img{
+    height: 20px;
+}
+.Profile{
+    border: 1px solid black;
+    position: relative;
+    display: block;
+    justify-content:flex-end;
+    background-color: rgb(12, 22, 80);
+    color: white;
+}
+.ProfileImage{
+    display: flex;
+    padding: 10px;
+}
+.ProfileImage span{
+    font-size: 10px;
+    padding: 12px;
+    line-height: -1.6;
+    
+}
+.AdminName{
+    display: block; line-height: 1.1;
+}
+.ProfileImage img{
+    display: block;
+    height: 50px;
+    width: 60px;
+}
+
+
+
+
+
+
+/* **************************Vertical Bar******************** */
+#vertical {
+    position:absolute;
+    border-left: 95px solid rgb(1, 10, 63);
+    border-radius: 40px;
+    height: 70%;
+    color: black    ;
+    margin-left: 10px;
+    margin-top: -38px;
+
+  }
+.home img{
+    height: 40px;
+    position: relative;
+    top: 8px;
+    left: 38px;
+}  
+.worker img{
+    height: 40px;
+    position: relative;
+    top: 68px;
+    left: 38px;
+}
+.calender img{
+    height: 40px;
+    position: relative;
+    top: 139px;
+    left: 38px;
+}
+.bar img{
+    height: 35px;
+    position: relative;
+    top: 212px;
+    left: 38px;
+}
+
+
+/* *********************Contener*********************** */
+
+#FirstContener{
+    display: flex;
+    margin-left: 190px;
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 230px;
+    justify-content: center;
+}
+
+#first{
+    /* display: inline-flex; */
+    border: 2px solid rgb(182, 170, 170);
+    /* padding-left: 38px; */
+    justify-content: center;
+    margin-left: 149px;
+    width: 26%;
+    height: 150px;
+    background-color: #fff;
+    position: relative;
+    top: -155px;
+    border-radius: 20px;
+}
+.img1 img{
+    height: 100px;
+    margin-left: 115px;
+    margin-top: -22px;
+}
+.box1 {
+    display: flex;
+    padding: 10px;
+    position: relative;
+    top: -2px;
+}
+.box1 img{
+    display: block;
+    height: 35px;
+    padding: 5px;
+}
+#secnd{
+    display: flex;
+    border: 2px solid rgb(182, 170, 170);
+    background-color: #fff;
+    padding-left: 50px;
+    margin-left: 159px;
+    width: 26%;
+    height: 150px;
+    position: relative;
+    top: -305px;
+    left: 392px;
+    border-radius: 20px;
+
+}
+#third{
+    display: flex;
+    text-align: center;
+    border: 2px solid rgb(182, 170, 170);
+    background-color: #fff;
+    padding-left: 38px;
+    margin-left: 159px;
+    width: 26%;
+    height: 150px;
+    position: relative;
+    top: -454px;
+    left: 792px;
+    border-radius: 20px;
+}
